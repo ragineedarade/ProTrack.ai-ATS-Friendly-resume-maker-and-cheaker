@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 import requests
 import google.generativeai as genai
 import pdf2image
@@ -344,3 +344,4 @@ color: #000; text-align: center; padding: 10px 0; font-size: 12px;}
 <div class="footer">ProTrack created by <strong>Raginee Darade</strong></div>
 """
 st.markdown(footer, unsafe_allow_html=True)
+
