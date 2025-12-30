@@ -8,7 +8,7 @@ import webbrowser
 from fpdf import FPDF # You'll need to install this: pip install fpdf
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCO4lF2U3tjwv5myTkqH1LUBWaWuwuedis")
+genai.configure(api_key="YOUR_API_KEY")
 
 # --- Existing Functions ---
 
@@ -344,4 +344,5 @@ color: #000; text-align: center; padding: 10px 0; font-size: 12px;}
 <div class="footer">ProTrack created by <strong>Raginee Darade</strong></div>
 """
 st.markdown(footer, unsafe_allow_html=True)
+
 
